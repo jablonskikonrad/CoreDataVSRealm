@@ -16,6 +16,16 @@
 		E6230FFD2C0BE111004D5F11 /* DatabasesPerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6230FFC2C0BE111004D5F11 /* DatabasesPerformanceTests.swift */; };
 		E62310072C0BE111004D5F11 /* DatabasesPerformanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62310062C0BE111004D5F11 /* DatabasesPerformanceUITests.swift */; };
 		E62310092C0BE111004D5F11 /* DatabasesPerformanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62310082C0BE111004D5F11 /* DatabasesPerformanceUITestsLaunchTests.swift */; };
+		E62310172C0BE25D004D5F11 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E62310162C0BE25D004D5F11 /* RealmSwift */; };
+		E623101B2C0BE930004D5F11 /* ItemRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E623101A2C0BE930004D5F11 /* ItemRealm.swift */; };
+		E623101D2C0BE96E004D5F11 /* ItemRealmCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E623101C2C0BE96E004D5F11 /* ItemRealmCreator.swift */; };
+		E623101F2C0BE9A3004D5F11 /* ItemCoreDataCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E623101E2C0BE9A3004D5F11 /* ItemCoreDataCreator.swift */; };
+		E62310212C0BEADF004D5F11 /* ItemCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62310202C0BEADF004D5F11 /* ItemCoreDataStack.swift */; };
+		E62310232C0BECF8004D5F11 /* ItemsRealmObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62310222C0BECF8004D5F11 /* ItemsRealmObserver.swift */; };
+		E62310252C0BEE19004D5F11 /* ItemsCoreDataObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62310242C0BEE19004D5F11 /* ItemsCoreDataObserver.swift */; };
+		E62310272C0BF161004D5F11 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62310262C0BF161004D5F11 /* ViewModel.swift */; };
+		E62310292C0BF5C2004D5F11 /* ItemsCoreDataCleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62310282C0BF5C2004D5F11 /* ItemsCoreDataCleaner.swift */; };
+		E623102B2C0BF5D4004D5F11 /* ItemsRealmCleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E623102A2C0BF5D4004D5F11 /* ItemsRealmCleaner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,15 @@
 		E62310022C0BE111004D5F11 /* DatabasesPerformanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatabasesPerformanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62310062C0BE111004D5F11 /* DatabasesPerformanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabasesPerformanceUITests.swift; sourceTree = "<group>"; };
 		E62310082C0BE111004D5F11 /* DatabasesPerformanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabasesPerformanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E623101A2C0BE930004D5F11 /* ItemRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRealm.swift; sourceTree = "<group>"; };
+		E623101C2C0BE96E004D5F11 /* ItemRealmCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRealmCreator.swift; sourceTree = "<group>"; };
+		E623101E2C0BE9A3004D5F11 /* ItemCoreDataCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCoreDataCreator.swift; sourceTree = "<group>"; };
+		E62310202C0BEADF004D5F11 /* ItemCoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCoreDataStack.swift; sourceTree = "<group>"; };
+		E62310222C0BECF8004D5F11 /* ItemsRealmObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsRealmObserver.swift; sourceTree = "<group>"; };
+		E62310242C0BEE19004D5F11 /* ItemsCoreDataObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCoreDataObserver.swift; sourceTree = "<group>"; };
+		E62310262C0BF161004D5F11 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E62310282C0BF5C2004D5F11 /* ItemsCoreDataCleaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCoreDataCleaner.swift; sourceTree = "<group>"; };
+		E623102A2C0BF5D4004D5F11 /* ItemsRealmCleaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsRealmCleaner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62310172C0BE25D004D5F11 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,8 +119,11 @@
 		E6230FE42C0BE110004D5F11 /* DatabasesPerformance */ = {
 			isa = PBXGroup;
 			children = (
+				E62310192C0BE7A2004D5F11 /* CoreData */,
+				E62310182C0BE79D004D5F11 /* Realm */,
 				E6230FE52C0BE110004D5F11 /* DatabasesPerformanceApp.swift */,
 				E6230FE72C0BE110004D5F11 /* Persistence.swift */,
+				E62310262C0BF161004D5F11 /* ViewModel.swift */,
 				E6230FEC2C0BE110004D5F11 /* ContentView.swift */,
 				E6230FEE2C0BE110004D5F11 /* Assets.xcassets */,
 				E6230FF02C0BE110004D5F11 /* DatabasesPerformance.entitlements */,
@@ -135,6 +158,28 @@
 			path = DatabasesPerformanceUITests;
 			sourceTree = "<group>";
 		};
+		E62310182C0BE79D004D5F11 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				E623101A2C0BE930004D5F11 /* ItemRealm.swift */,
+				E623101C2C0BE96E004D5F11 /* ItemRealmCreator.swift */,
+				E62310222C0BECF8004D5F11 /* ItemsRealmObserver.swift */,
+				E623102A2C0BF5D4004D5F11 /* ItemsRealmCleaner.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		E62310192C0BE7A2004D5F11 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E623101E2C0BE9A3004D5F11 /* ItemCoreDataCreator.swift */,
+				E62310202C0BEADF004D5F11 /* ItemCoreDataStack.swift */,
+				E62310242C0BEE19004D5F11 /* ItemsCoreDataObserver.swift */,
+				E62310282C0BF5C2004D5F11 /* ItemsCoreDataCleaner.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +196,9 @@
 			dependencies = (
 			);
 			name = DatabasesPerformance;
+			packageProductDependencies = (
+				E62310162C0BE25D004D5F11 /* RealmSwift */,
+			);
 			productName = DatabasesPerformance;
 			productReference = E6230FE22C0BE110004D5F11 /* DatabasesPerformance.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +271,9 @@
 				Base,
 			);
 			mainGroup = E6230FD92C0BE110004D5F11;
+			packageReferences = (
+				E62310152C0BE25D004D5F11 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = E6230FE32C0BE110004D5F11 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,9 +316,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62310292C0BF5C2004D5F11 /* ItemsCoreDataCleaner.swift in Sources */,
+				E623101F2C0BE9A3004D5F11 /* ItemCoreDataCreator.swift in Sources */,
+				E623102B2C0BF5D4004D5F11 /* ItemsRealmCleaner.swift in Sources */,
 				E6230FE62C0BE110004D5F11 /* DatabasesPerformanceApp.swift in Sources */,
+				E62310212C0BEADF004D5F11 /* ItemCoreDataStack.swift in Sources */,
+				E62310272C0BF161004D5F11 /* ViewModel.swift in Sources */,
+				E62310252C0BEE19004D5F11 /* ItemsCoreDataObserver.swift in Sources */,
+				E623101D2C0BE96E004D5F11 /* ItemRealmCreator.swift in Sources */,
 				E6230FE82C0BE110004D5F11 /* Persistence.swift in Sources */,
+				E623101B2C0BE930004D5F11 /* ItemRealm.swift in Sources */,
 				E6230FED2C0BE110004D5F11 /* ContentView.swift in Sources */,
+				E62310232C0BECF8004D5F11 /* ItemsRealmObserver.swift in Sources */,
 				E6230FEB2C0BE110004D5F11 /* DatabasesPerformance.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -625,6 +685,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E62310152C0BE25D004D5F11 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E62310162C0BE25D004D5F11 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E62310152C0BE25D004D5F11 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E6230FE92C0BE110004D5F11 /* DatabasesPerformance.xcdatamodeld */ = {
